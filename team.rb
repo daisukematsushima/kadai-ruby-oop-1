@@ -12,7 +12,7 @@ class Team
   
   # オブジェクトのメソッド（処理）
   def calc_win_rate
-    return win.to_f / (win + lose)
+    return self.win.to_f / (self.win + self.lose)
   end
   
   # チームの成績をターミナルに表示する
@@ -22,18 +22,18 @@ class Team
 end
 
 # インスタンスの生成と、変数への代入
-Giants = Team.new("ジャイアンツ",67,45,8)
-Tigers = Team.new("タイガース",60,53,7)
-Dragons = Team.new("ドラゴンズ",60,55,5)
-Baystars = Team.new("ベイスターズ",56,58,6)
-Carp = Team.new("カープ",52,56,12)
-Swallows = Team.new("スワローズ",41,69,10)
+giants = Team.new("ジャイアンツ",67,45,8)
+tigers = Team.new("タイガース",60,53,7)
+dragons = Team.new("ドラゴンズ",60,55,5)
+baystars = Team.new("ベイスターズ",56,58,6)
+carp = Team.new("カープ",52,56,12)
+swallows = Team.new("スワローズ",41,69,10)
 
 
 # インスタンスの使用
-Giants.show_team_result
-Tigers.show_team_result
-Dragons.show_team_result
-Baystars.show_team_result
-Carp.show_team_result
-Swallows.show_team_result
+giants.show_team_result
+tigers.show_team_result
+dragons.show_team_result
+baystars.show_team_result
+carp.show_team_result
+swallows.show_team_result
