@@ -22,12 +22,12 @@ class Team
 end
 
 # インスタンスの生成と、変数への代入
-giants = Team.new("ジャイアンツ",67,45,8)
-tigers = Team.new("タイガース",60,53,7)
-dragons = Team.new("ドラゴンズ",60,55,5)
-baystars = Team.new("ベイスターズ",56,58,6)
-carp = Team.new("カープ",52,56,12)
-swallows = Team.new("スワローズ",41,69,10)
+giants = Team.new("Giants",67,45,8)
+tigers = Team.new("Tigers",60,53,7)
+dragons = Team.new("Dragons",60,55,5)
+baystars = Team.new("Baystars",56,58,6)
+carp = Team.new("Carp",52,56,12)
+swallows = Team.new("Swallows",41,69,10)
 
 
 # インスタンスの使用
